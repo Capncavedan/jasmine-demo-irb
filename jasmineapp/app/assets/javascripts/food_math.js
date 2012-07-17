@@ -15,7 +15,7 @@ var FoodMath = {
 (function($){
   $.fn.flavorInfoSetter = function() {
     $(this).change(function() {
-      var newInfo = FoodMath.pi( $('#flavor_select').val() );
+      var newInfo = FoodMath.pi( $(this).val() );
       $('#flavor_info').html(newInfo);
     });
   };

@@ -26,9 +26,13 @@ describe("FoodMath", function() {
     expect( FoodMath.RaiseAlert ).not.toHaveBeenCalled();
   });
 
-  it("should confirm the best variety", function () {
+  it("should confirm the best variety", function() {
     expect( maths.pi('Dutch Apple a la mode') ).toEqual('the very best!');
     expect( FoodMath.RaiseAlert ).toHaveBeenCalledWith('ZOMG I LOVE DUTCH APPLE A LA MODE TOO!');
+  });
+
+  it("should give us pi when we really mean it", function() {
+    expect( maths.pi('I mean it') ).toEqual(3.1415926536);
   });
 
 });

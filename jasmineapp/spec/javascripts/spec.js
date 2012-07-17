@@ -1,3 +1,3 @@
 //= require jquery
-//= require food_maths
+//= require food_math
 //= require_tree .

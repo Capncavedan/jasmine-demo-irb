@@ -1,4 +1,7 @@
 Jasmineapp::Application.routes.draw do
+
+  match 'food_maths' => 'food_maths#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,13 +1,22 @@
 Resources:
 
+
+Railscast:
+http://railscasts.com/episodes/261-testing-javascript-with-jasmine (original)
+http://railscasts.com/episodes/261-testing-javascript-with-jasmine-revised (revised, subscription req'd)
+
+
 Jasmine introduction:
 http://pivotal.github.com/jasmine/
+
 
 Wiki:
 https://github.com/pivotal/jasmine/wiki/
 
+
 Jasmine rice:
 https://github.com/bradphelan/jasminerice
+
 
 Jasmine JQuery:
 https://github.com/velesin/jasmine-jquery

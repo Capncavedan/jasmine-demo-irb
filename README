@@ -20,3 +20,14 @@ https://github.com/bradphelan/jasminerice
 
 Jasmine JQuery:
 https://github.com/velesin/jasmine-jquery
+
+
+Jasminerice runner:
+https://github.com/gaslight/jasminerice-runner
+
+
+Helpful blog posts:
+Unit testing: http://a-developer-life.blogspot.com/2011/05/jasmine-part-1-unit-testing-javascript.html
+Spies and mocks: http://a-developer-life.blogspot.com/2011/06/jasmine-part-2-spies-and-mocks.html
+Spy cheatsheet: http://tobyho.com/2011/12/15/jasmine-spy-cheatsheet/
+AJAX calls: http://gigasquidsoftware.com/wordpress/?p=201

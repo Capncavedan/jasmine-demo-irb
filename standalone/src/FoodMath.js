@@ -6,19 +6,23 @@ FoodMath.RaiseAlert = function(msg) {
 };
 
 FoodMath.prototype.pi = function(flavor) {
-  if (flavor == 'raspberry')
-    return "most excellent!";
-
-  if (flavor == 'rhubarb')
-    return "one of the best!";
-
   if (flavor == 'mincemeat')
     return "the horror! the horror!"
 
-  if (flavor == 'Dutch Apple a la mode') {
-    FoodMath.RaiseAlert("ZOMG I LOVE DUTCH APPLE A LA MODE TOO!");
-    return "the very best!"
+  var ret = "it is yummy!"
+
+  if (flavor == 'raspberry')
+    ret = "most excellent!";
+
+  if (flavor == 'rhubarb') {
+    ret = "one of the best!";
+    FoodMath.RaiseAlert("but none of that strawberry-rhubarb stuff please");
   }
 
-  return "it is yummy!";
+  if (flavor == 'Dutch Apple a la mode') {
+    ret = "the very best!"
+    FoodMath.RaiseAlert("ZOMG I LOVE DUTCH APPLE A LA MODE TOO!");
+  }
+
+  return ret;
 };

@@ -1,30 +1,23 @@
 Resources:
 
-
 Railscast:
 http://railscasts.com/episodes/261-testing-javascript-with-jasmine (original)
 http://railscasts.com/episodes/261-testing-javascript-with-jasmine-revised (revised, subscription req'd)
 
-
 Jasmine introduction:
 http://pivotal.github.com/jasmine/
-
 
 Wiki:
 https://github.com/pivotal/jasmine/wiki/
 
-
-Jasmine rice:
-https://github.com/bradphelan/jasminerice
-
-
-Jasmine JQuery:
+Jasmine jQuery:
 https://github.com/velesin/jasmine-jquery
 
+Jasminerice:
+https://github.com/bradphelan/jasminerice
 
 Jasminerice runner:
 https://github.com/gaslight/jasminerice-runner
-
 
 Helpful blog posts:
 Unit testing: http://a-developer-life.blogspot.com/2011/05/jasmine-part-1-unit-testing-javascript.html

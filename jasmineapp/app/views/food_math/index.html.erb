@@ -1,0 +1,11 @@
+<h1>Food Math</h1>
+
+<label for="flavor_select">Flavor: </label>
+<select id="flavor_select">
+  <option value="">- pick one -</option>
+  <% @flavors.each do |flavor| -%>
+  <option value="<%= flavor %>"><%= flavor %></option>
+  <% end -%>
+</select>
+
+<span id="flavor_info"></span>
